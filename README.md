@@ -74,3 +74,32 @@ The path is indicated as the location and can be either absolute or relative in 
 `Note:`
 
 Executing the command cd without any parameters will consistently return you to your home directory.
+
+## 
+
+# About Linux files
+
+To begin our understanding of Linux, it's crucial to recognize that in this operating system, all components are essentially treated as files. This encompasses various elements such as text files, directories, keyboards (solely for system input), monitors (exclusively for system output), and more.
+
+# Important things to note:
+
+Linux operates as a system without specific file extensions. Typically, a file extension consists of 2 to 4 characters following a period at the end of a file, indicating its file type. 
+
+Some common extensions include:
+
+* `file.exe` - representing an executable file or program.
+* `file.txt` - denoting a plain text file.
+* `file.png`, `file.gif`, `file.jpg` - indicating an image file.
+
+In different operating systems like Windows, the extension holds significance as the system relies on it to identify the file type. In contrast, Linux disregards the extension and inspects the file content to ascertain its file type.
+
+`Note`: Linux is Case Sensitive
+
+### Spaces in names:
+When you mention files with names containing spaces, it's necessary to enclose the names in quotation marks.
+
+### Hidden Files and Directories:
+If a file or directory starts with a . (period), it is regarded as hidden.
+
+Listing hidden files:
+ls -a
