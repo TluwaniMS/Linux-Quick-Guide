@@ -173,3 +173,15 @@ Saving and Exiting a file:
 Other ways to view files:
 
 `cat <file>`
+
+# Wildcards
+
+So what are they?:
+
+Wildcards represent a collection of fundamental elements that enable the creation of a pattern defining a group of files or directories.
+
+Here is the basic set of wildcards:
+
+* `*`- represents zero or more characters
+* `?` - represents a single character
+* `[]` - represents a range of characters
