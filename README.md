@@ -103,3 +103,9 @@ If a file or directory starts with a . (period), it is regarded as hidden.
 
 Listing hidden files:
 ls -a
+
+# Linux Manual Pages
+
+The manual pages comprise a collection of pages detailing each command accessible on your system, elucidating their functions, operational procedures, and the command line parameters they support.
+
+`man <command_to_look_up>`
