@@ -156,3 +156,20 @@ Removing non empty Directories:
 
 `NB!`
 With the help of the -r flag, which signifies recursive, we can duplicate directories. The recursive feature entails inspecting a directory along with all the files and subdirectories within it. For subdirectories, the process involves delving into them and performing the same action repeatedly.
+
+# VI Text Editor
+
+Vi is a command line text editor.
+
+`vi <file>`
+
+Saving and Exiting a file:
+
+* `ZZ` (Note: capitals) - Save and exit
+* `:q!` - discard all changes, since the last save, and exit
+* `:w` - save file but don't exit
+* `:wq` - again, save and exit
+
+Other ways to view files:
+
+`cat <file>`
