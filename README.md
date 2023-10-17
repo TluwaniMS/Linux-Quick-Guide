@@ -185,3 +185,9 @@ Here is the basic set of wildcards:
 * `*`- represents zero or more characters
 * `?` - represents a single character
 * `[]` - represents a range of characters
+
+# Grep and Regular Expressions
+
+egrep functions as a software tool that scans a specified dataset and outputs each line that includes a specified pattern. It represents a further development of the grep utility program.
+
+`egrep [command line options] <pattern> [path]`
