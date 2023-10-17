@@ -219,3 +219,33 @@ Sort will arrange its input in a straightforward and organized manner.
 nl represents number lines.
 
 `nl [-options] [path]`
+
+# Piping and Redirection
+
+Each command line program we execute is inherently linked to three data streams.
+
+* STDIN (0) - Standard input (data fed into the program)
+* STDOUT (1) - Standard output (data printed by the program, defaults to the terminal)
+* STDERR (2) - Standard error (for error messages, also defaults to the terminal)
+
+Piping and redirection facilitate the connection of these streams between programs and files, enabling the manipulation of data in engaging and practical manners.
+
+* Redirecting to a File:
+
+`<command> > <file-name>`
+
+Saving to an Existing File
+
+If we direct output to a non-existent file, it will be generated automatically. On the other hand, if we save output to an existing file, its contents will be erased before the new output is saved.
+
+Alternatively, we can use the double greater than operator `( >> )` to add the new data to the file.
+
+`<command> >> <file-name>`
+
+* Piping:
+
+Piping refers to the process of transmitting data from one program to another, utilizing the `( | )` operator. This operator functions by directing the output of the left program as the input for the right program.
+
+`e.g`:
+`ls | head -3 | tail -1`
+
