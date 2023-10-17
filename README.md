@@ -109,3 +109,50 @@ ls -a
 The manual pages comprise a collection of pages detailing each command accessible on your system, elucidating their functions, operational procedures, and the command line parameters they support.
 
 `man <command_to_look_up>`
+
+# File Manipulation
+
+Making a directory:
+
+`mkdir [options] <Directory>`
+
+Creating a directory with sub-directories:
+
+`mkdir -p main-directory/sub-directory`
+
+`-p` tells mkdir to make parent directories as needed
+
+`mkdir -pv main-directory/sub-directory`
+
+`-v` makes mkdir tell us what it is doing
+
+Removing a directory:
+
+`rmdir [options] <Directory>`
+
+`NB!`
+
+a directory must be empty before it may be removed
+
+Creating a Blank File:
+
+`touch [options] <filename>`
+
+Copying a File or Directory:
+
+`cp [options] <source> <destination>`
+
+Moving a File or Directory:
+
+`mv [options] <source> <destination>`
+
+Removing a File (and non empty Directories);
+
+`rm [options] <file>`
+
+Removing non empty Directories:
+
+`rm -r <directory>`
+
+`NB!`
+With the help of the -r flag, which signifies recursive, we can duplicate directories. The recursive feature entails inspecting a directory along with all the files and subdirectories within it. For subdirectories, the process involves delving into them and performing the same action repeatedly.
