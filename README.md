@@ -249,3 +249,63 @@ Piping refers to the process of transmitting data from one program to another, u
 `e.g`:
 `ls | head -3 | tail -1`
 
+####
+
+* zip and unzip
+
+The zip function enables you to condense items into a ZIP archive using the most efficient compression ratio available.
+
+`zip [options] zipfile <folder/file>`
+ 
+* tee
+
+The tee command records the user's input to both the Terminal's output and files.
+
+`command | tee [option] file1`
+
+* sudo
+
+Superuser do, or sudo, executes your command with administrative or root privileges.
+
+`sudo (command)`
+
+* wget
+
+Utilize the wget command for retrieving files from the web via HTTP, HTTPS, or FTP protocols.
+
+`wget [option] [url]`
+
+* curl
+
+The curl command facilitates the transfer of data between servers, utilizing any of the protocols it supports.
+
+`curl [options] [URL...]`
+
+* alias and unalias
+
+The alias directive prompts the shell to substitute one string with another, enabling the creation of a convenient abbreviation for a program, file name, or text.
+
+`alias <alias>=<command>`
+
+To remove a current alias, utilize the 'unalias' command in the following format.:
+
+`unalias [alias_name]`
+
+* apt-get
+
+apt-get is a command-line utility designed for managing Advanced Package Tool (APT) repositories in Debian-based Linux distributions, such as Ubuntu. This tool enables users to oversee software by facilitating tasks such as updating, removing, and installing packages along with their associated dependencies.
+
+`apt-get [options] (command)`
+
+* yum
+
+YUM serves as a software package management tool extensively employed in various Linux distributions.
+The term "YUM" is an abbreviation derived from "Yellowdog Updater, Modified".
+
+`yum <command> <packagename>`
+
+* chmod 
+
+The Linux chmod command enables the management of file permissions, empowering users to designate file accessibility, directory searchability, and script execution.
+
+`chmod <options> <permissions> <file name> `
